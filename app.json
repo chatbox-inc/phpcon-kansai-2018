@@ -17,6 +17,9 @@
     },
     "environments": {
         "test": {
+            "addons":[
+                "heroku-postgres:hobby-dev"
+            ],
             "scripts": {
                 "test": "phpunit"
             }
@@ -27,7 +30,9 @@
             "quantity": 1
         }
     },
-    "addons": [],
+    "addons": [
+
+    ],
     "buildpacks": [
         {
             "url": "heroku/php"
