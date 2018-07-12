@@ -52,3 +52,10 @@ $this->app->extend("db",function($dbObj){
 ```
 
 6. 管理画面から `php artisan migrate --force` を実行
+
+## Logging
+
+7. 管理画面から `view logs` でログ画面を開く
+
+8. 環境変数を `LOG_CHANNEL=stderr` に変更
+

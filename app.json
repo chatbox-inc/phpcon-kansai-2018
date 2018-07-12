@@ -14,21 +14,19 @@
     "DB_CONNECTION": {
       "required": true
     },
+    "DATABASE_URL": {
+      "required": true
+    },
     "LOG_CHANNEL": {
       "required": true
     }
   },
   "formation": {
-    "worker": {
-      "quantity": 1
-    },
     "web": {
       "quantity": 1
     }
   },
-  "addons": [
-    "heroku-postgresql"
-  ],
+  "addons": [],
   "buildpacks": [
     {
       "url": "heroku/php"
