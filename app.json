@@ -19,7 +19,7 @@
         "test": {
             "env":{
                 "DB_CONNECTION": "sqlite",
-                "DATABASE_URL" : "dmmy"
+                "DATABASE_URL" : ""
             },
             "scripts": {
                 "test-setup": "touch database/database.sqlite",
