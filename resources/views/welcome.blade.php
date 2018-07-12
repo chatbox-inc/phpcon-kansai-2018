@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    PHPCON2018!
                 </div>
 
                 <div class="links">
