@@ -3,7 +3,7 @@
     },
     "env": {
         "APP_KEY": {
-            "value": "base64:88imPGbFhEfXxtgB05HwS8Znx/oSjnz3vMxH6Vvn+J4="
+            "required": true
         },
         "DB_CONNECTION": {
             "value": "herokupg"
@@ -19,7 +19,8 @@
         "test": {
             "env":{
                 "DB_CONNECTION": "sqlite",
-                "DATABASE_URL" : "0"
+                "DATABASE_URL" : "0",
+                "APP_KEY": "base64:88imPGbFhEfXxtgB05HwS8Znx/oSjnz3vMxH6Vvn+J4="
             },
             "scripts": {
                 "test-setup": "touch database/database.sqlite",
