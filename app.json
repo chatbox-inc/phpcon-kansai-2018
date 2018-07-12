@@ -1,35 +1,42 @@
 {
-  "scripts": {
-  },
-  "env": {
-    "APP_DEBUG": {
-      "required": true
+    "scripts": {
     },
-    "APP_DEBUT": {
-      "required": true
+    "env": {
+        "APP_DEBUG": {
+            "required": true
+        },
+        "APP_DEBUT": {
+            "required": true
+        },
+        "APP_KEY": {
+            "required": true
+        },
+        "DB_CONNECTION": {
+            "required": true
+        },
+        "DATABASE_URL": {
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "required": true
+        }
     },
-    "APP_KEY": {
-      "required": true
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "phpunit"
+            }
+        }
     },
-    "DB_CONNECTION": {
-      "required": true
+    "formation": {
+        "web": {
+            "quantity": 1
+        }
     },
-    "DATABASE_URL": {
-      "required": true
-    },
-    "LOG_CHANNEL": {
-      "required": true
-    }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [],
-  "buildpacks": [
-    {
-      "url": "heroku/php"
-    }
-  ]
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/php"
+        }
+    ]
 }
