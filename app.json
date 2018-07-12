@@ -2,14 +2,8 @@
     "scripts": {
     },
     "env": {
-        "APP_DEBUG": {
-            "required": true
-        },
-        "APP_DEBUT": {
-            "required": true
-        },
         "APP_KEY": {
-            "required": true
+            "value": "base64:88imPGbFhEfXxtgB05HwS8Znx/oSjnz3vMxH6Vvn+J4="
         },
         "DB_CONNECTION": {
             "required": true
@@ -18,7 +12,7 @@
             "required": true
         },
         "LOG_CHANNEL": {
-            "required": true
+            "value": "stderr"
         }
     },
     "environments": {
