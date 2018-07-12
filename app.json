@@ -17,12 +17,9 @@
     },
     "environments": {
         "test": {
-            "addons":[
-                "heroku-postgres:hobby-dev"
-            ],
             "env":{
                 "DB_CONNECTION": "sqlite",
-                "DATABASE_URL" : ""
+                "DATABASE_URL" : "dmmy"
             },
             "scripts": {
                 "test-setup": "touch database/database.sqlite",
