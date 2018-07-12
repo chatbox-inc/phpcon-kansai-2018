@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    logger()->info("hello world");
     return view('welcome');
 });
 
