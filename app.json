@@ -6,7 +6,7 @@
             "value": "base64:88imPGbFhEfXxtgB05HwS8Znx/oSjnz3vMxH6Vvn+J4="
         },
         "DB_CONNECTION": {
-            "required": true
+            "value": "herokupg"
         },
         "DATABASE_URL": {
             "required": true
